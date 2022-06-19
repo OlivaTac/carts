@@ -26,7 +26,7 @@ pipeline{
         stage('package'){
             steps{
                 echo 'this is the third job'
-                sh 'mvn package -DskipTest'
+                sh 'mvn package -DskipTests'
          
             }
         }
